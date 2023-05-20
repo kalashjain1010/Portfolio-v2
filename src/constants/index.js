@@ -65,7 +65,7 @@ import {
       icon: nodejs,
     },
     {
-      title: "Express",
+      title: "NextJs",
       icon: express,
     },
     {
@@ -73,7 +73,7 @@ import {
       icon: threejs,
     },
     {
-      title: "Vue.JS",
+      title: "Firebase",
       icon: vue,
     },
   ];
@@ -84,7 +84,7 @@ import {
       title: "Web Developer Intern",
       company_name: "NGTS",
       icon: tech4addiction,
-      iconBg: "#383E56",
+      iconBg: "#FFFF",
       date: "April 2023 - NOW",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
@@ -124,7 +124,7 @@ import {
       title: "Full stack App",
       company_name: "Crypto Sensex",
       icon: honeyuncle,
-      iconBg: "#FFDF00",
+      iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
@@ -138,7 +138,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "Aman is champ, straight forward to his goals and whatever he choose, never let it leave without completing. ",
+        "Kalash is champ, straight forward to his goals and whatever he choose, never let it leave without completing. ",
       name: "Ravi Pathak",
       designation: "ASE Intern",
       company: "Techion",
@@ -186,7 +186,7 @@ import {
       minImg: github,
     },
     {
-      name: "Portfolio",
+      name: "Personal Portfolio",
     description:
       "This portfolio is the best example where you can see my work on 3d images and creating a web application that can even respond to emails with just using emailjs",
     tags: [
@@ -204,8 +204,8 @@ import {
       },
       ],
       image: Zerociti,
-      source_code_link: "https://zerociti.com/",
-      minImg: live,
+      source_code_link: "https://github.com/kalashjain1010/Portfolio-v2",
+      minImg: github,
     },
     {
       name: "Word Counter",
@@ -229,32 +229,7 @@ import {
       ssource_code_link: "https://github.com/kalashjain1010/WordCounterUsingReact",
       minImg: github,
     },
-    // {
-    //   name: "Personal Portfolio",
-    //   description:
-    //     "Hey look! , This is it, you are surfing ON 😗",
-    //   tags: [
-    //     {
-    //       name: "ReactJS",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "vite",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "three.js",
-    //       color: "pink-text-gradient",
-    //     },
-    //     {
-    //       name: "tailwind",
-    //       color: "green-text-gradient",
-    //     },
-    //   ],
-    //   image: personal,
-    //   source_code_link: "https://github.com/amanjaiman1/Porfolio-v1",
-    //   minImg: github,
-    // },
+
   ];
   
   export { services, technologies, experiences, testimonials, projects };

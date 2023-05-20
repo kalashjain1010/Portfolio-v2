@@ -22,11 +22,11 @@ const Social = () => {
     className="flex"
     variants={textVariant()}
     >
-    <a  href='https://github.com/amanjaiman1' target=' ' ><img className="h-[40px]" src={github} alt="" /></a>
-    <a  href='https://www.linkedin.com/in/aman-jaiman-b4a36b199/' target=' ' ><img className="h-[40px]" src={linkedin} alt="" /></a>
-    <a  href='https://twitter.com/AMANJAIMAN6' target=' ' ><img className="h-[45px]" src={twitter} alt="" /></a>
-    <a  href='https://www.instagram.com/are.jaiman_sahab/' target=' ' ><img className="h-[40px]" src={instagram} alt="" /></a>
-    <a  href='https://www.facebook.com/aman.jaiman.94'  target=' '><img className="h-[40px]" src={facebook} alt="" /></a>
+    <a  href='https://github.com/kalashjain1010' target=' ' ><img className="h-[40px]" src={github} alt="" /></a>
+    <a  href='https://www.linkedin.com/in/kalash-jain-1b99731a0/' target=' ' ><img className="h-[40px]" src={linkedin} alt="" /></a>
+    <a  href='https://twitter.com/kalash__jain_' target=' ' ><img className="h-[45px]" src={twitter} alt="" /></a>
+    <a  href='https://www.instagram.com/kalash.png/' target=' ' ><img className="h-[40px]" src={instagram} alt="" /></a>
+    <a  href='https://www.facebook.com/kalashjain.1010/'  target=' '><img className="h-[40px]" src={facebook} alt="" /></a>
     </motion.div>
       <br />
 
