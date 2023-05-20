@@ -24,7 +24,7 @@ const Hero = () => {
             duration: 5,
             repeat: delay,
           }}
-          className = " translate-y-6 w-10 h-10 rounded-full bg-[#3a2f50]"
+          className = " translate-y-6 w-8 h-8 rounded-full bg-[#3a2f50]"
            />
           <div className = "w-1 sm:h-48 max-sm:h-[405px] bg-[#13072c] " />
 
@@ -33,14 +33,13 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText}
           text-white typing-demo`}>
-              Hi, I'm <span className="text-[#2a2338] animate-typing"> Aman </span>
+               Hi,I'm <span className="text-[#2a2338] animate-typing ">Kalash </span>
           </h1>
 
           <p className={`${styles.heroSubText}
             mt-2 text-[30px] text-white-100 text_shadows`}>
-              <span className="text-[#2a2338] font-bold ">I </span> develop <span className="text-[#2a2338] font-bold"> Eye Seducing </span> Websites
-               <br className="sm:block " />
-              with user friendly.
+              <span className="text-[#2a2338] font-bold ">I </span> develop <span className="text-[#2a2338] font-bold"> Web applications, </span>  user <br className='sm:block hidden' />
+            interfaces and 3d-visuals.
             </p>
         </div>
 
