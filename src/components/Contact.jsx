@@ -58,16 +58,16 @@ const Contact = () => {
   const sendEmail = () => {
     emailjs
       .send(
-        "service_pzrytg2",
-        "template_26hjic3",
+        'service_lamq8af',
+        'template_5o9d5wm',
         {
           from_name: form.name,
-          to_name: "Aman Jaiman",
+          to_name: "Kalash Jain",
           from_email: form.email,
-          to_email: "amanjaiman001@gmail.com",
+          to_email: "kalashjain54@gmail.com",
           message: form.message,
         },
-        "bJBVpgo6aMs-B4M5a" // Replace with your user ID
+        'rww7YYWd1MUNjSXqv' // Replace with your user ID
       )
       .then(
         () => {
