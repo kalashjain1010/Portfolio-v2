@@ -81,51 +81,56 @@ import {
   
   const experiences = [
     {
-      title: "Wordpress Developer",
-      company_name: "Tech4Addiction.com",
+      title: "Web Developer Intern",
+      company_name: "NGTS",
       icon: tech4addiction,
       iconBg: "#383E56",
-      date: "March 2021 - August 2021",
+      date: "April 2023 - NOW",
       points: [
-        "Developed and maintained web applications using Wordpress technology.",
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Maintained Page's layouts and Categories to easily update #Tech News(Pages)",
+        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Search Engine Optimization",
-      company_name: "Coursera",
+      title: "Reddit Clone",
+      company_name: "Reddit",
       icon: seo,
       iconBg: "#E6DEDD",
-      date: "July 2021 - Oct 2021",
-      points: [
-        "Learnt Search Engine Optimization from Coursera",
-        "Gained a deep understanding of the strategies and techniques necessary to optimize websites for search engines and drive organic traffic.",
-        "This course is the importance of staying up-to-date with the latest trends and best practices in SEO.",
-      ],
+      date: "Dec 2022 - Feb 2023",
+    points: [
+      "Developing and maintaining web applications using Next.js , Chakra-ui & redux.",
+      "creating and managing the data at backend using FireBase.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      
+    ],
     },
     {
-      title: "Wordpress Developer",
-      company_name: "Zerociti",
+      title: "Referal India",
+    company_name: "Refferal India",
       icon: zerociti,
       iconBg: "#E6DEDD",
       date: "April 2022 - Oct 2022",
-      points: [
-        "A Stunning & Responsive e-commerce website that was created using WordPress and further customised with Javascript and CSS.",
-        "Includes pages, such as the Shop page, FAQ page, About Us page, and Contact page.",
-        "The payment system is added as it covered with integrated payment pages that make simply to make purchases safely and conveniently.",
-      ],
+      date: "Jan 2022 - Jan 2023",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
     },
     {
-      title: "Front End Developer",
-      company_name: "HoneyUncle",
+      title: "Full stack App",
+      company_name: "Crypto Sensex",
       icon: honeyuncle,
       iconBg: "#FFDF00",
-      date: "Oct 2022 - Dec 2022",
+      date: "Jan 2023 - Present",
       points: [
-        "Created a website utilising well-known web development tools including HTML, CSS, jQuery, and Bootstrap.",
-        "To make it simple for parents to traverse the website and identify the courses they were interested in, the layout and design were optimised.",
-        "Parents could quickly browse the available courses, pick the ones they desired, and enrol their children using the user-friendly enrollment system in only a few clicks.",
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
   ];
@@ -159,97 +164,97 @@ import {
   
   const projects = [
     {
-      name: "GPT-2.0",
+      name: "Reddit Clone",
       description:
-        "This is an AI chatBOT which is reponsible for answering questions ask by user.Bases on chatGPT-3 language model to generate responses.",
-      tags: [
+      "The main features of a Reddit clone include user-generated content, voting on content, commenting, and subreddits (topic-specific communities).",
+    tags: [
         {
-          name: "Vanilla",
-          color: "blue-text-gradient",
+          name: "NextJs",
+        color: "blue-text-gradient",
         },
         {
-          name: "vite",
-          color: "green-text-gradient",
+          name: "Chakra-ui",
+        color: "green-text-gradient",
         },
         {
-          name: "express",
-          color: "pink-text-gradient",
+          name: "Firebase",
+        color: "pink-text-gradient",
         },
       ],
       image: chatgpt,
-      source_code_link: "https://github.com/amanjaiman1/GPT_2.0",
+      source_code_link: "https://github.com/kalashjain1010/Redit",
       minImg: github,
     },
     {
-      name: "Zerociti",
-      description:
-        "An E-commerce Website , fully responsible which allow users to shop new fashionable wearings and handled easy payment methods.",
-      tags: [
-        {
-          name: "Wordpress",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "JS",
-          color: "green-text-gradient",
-        },
-        {
-          name: "SiteCountry",
-          color: "pink-text-gradient",
-        },
+      name: "Portfolio",
+    description:
+      "This portfolio is the best example where you can see my work on 3d images and creating a web application that can even respond to emails with just using emailjs",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ThreeJs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind css",
+        color: "pink-text-gradient",
+      },
       ],
       image: Zerociti,
       source_code_link: "https://zerociti.com/",
       minImg: live,
     },
     {
-      name: "HoneyUncle",
-      description:
-        "With well-known web development tools and completely responsive, this website's main goal was to enable parents to sign their kids up for e-courses provided by Honeyuncle",
-      tags: [
-        {
-          name: "JS",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Bootstrap",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
+      name: "Word Counter",
+    description:
+      "This app takes user input in the form of a string and returns the total word count and total charcters.It also has additional features like covert to upperCase and LowerCase",
+    tags: [
+      {
+        name: "Reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "js",
+        color: "pink-text-gradient",
+      },
+    ],
       image: HoneyUncle,
-      source_code_link: "https://github.com/amanjaiman1/InternHoneyUncle",
+      ssource_code_link: "https://github.com/kalashjain1010/WordCounterUsingReact",
       minImg: github,
     },
-    {
-      name: "Personal Portfolio",
-      description:
-        "Hey look! , This is it, you are surfing ON 😗",
-      tags: [
-        {
-          name: "ReactJS",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "vite",
-          color: "green-text-gradient",
-        },
-        {
-          name: "three.js",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "green-text-gradient",
-        },
-      ],
-      image: personal,
-      source_code_link: "https://github.com/amanjaiman1/Porfolio-v1",
-      minImg: github,
-    },
+    // {
+    //   name: "Personal Portfolio",
+    //   description:
+    //     "Hey look! , This is it, you are surfing ON 😗",
+    //   tags: [
+    //     {
+    //       name: "ReactJS",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "vite",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "three.js",
+    //       color: "pink-text-gradient",
+    //     },
+    //     {
+    //       name: "tailwind",
+    //       color: "green-text-gradient",
+    //     },
+    //   ],
+    //   image: personal,
+    //   source_code_link: "https://github.com/amanjaiman1/Porfolio-v1",
+    //   minImg: github,
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
