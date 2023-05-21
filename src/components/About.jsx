@@ -108,6 +108,7 @@ const About = () => {
       </motion.div>
 
       {/* for mobile only  */}
+      //fokat
 
       <motion.div>
         <div className="mt-20 flex-wrap flex sm:hidden gap-10">
