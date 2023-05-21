@@ -5,7 +5,7 @@ import { styles } from '../styles'
 import { textVariant1, textVariant }  from '../utils/motion';
 
 import { SectionWrapper } from '../hoc'
-import { facebook, github, instagram, linkedin, twitter } from '../assets'
+import { facebook, github, instagram, linkedin, twitter, resume} from '../assets'
 
 const Social = () => {
   return (
@@ -27,9 +27,10 @@ const Social = () => {
     <a  href='https://twitter.com/kalash__jain_' target=' ' ><img className="h-[45px]" src={twitter} alt="" /></a>
     <a  href='https://www.instagram.com/kalash.png/' target=' ' ><img className="h-[40px]" src={instagram} alt="" /></a>
     <a  href='https://www.facebook.com/kalashjain.1010/'  target=' '><img className="h-[40px]" src={facebook} alt="" /></a>
+    <a  href='https://drive.google.com/file/d/1oDgcS6RGeYyhpqttOI1D4fe7IMVZNeRb/view?usp=share_link'  target=' '><img className="h-[40px]" src={resume} alt="" /></a>
+
     </motion.div>
       <br />
-
       <footer className="text-center max-sm:mt-20">
         Made with SleepLess Nights 🙂
       </footer>

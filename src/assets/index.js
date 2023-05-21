@@ -21,6 +21,7 @@ import twitter from "./twitter.png"
 import personal from "./personal.png"
 import live from "./live.png"
 import warnimg from "./warning.png"
+import resume from "./resume.png"
 
 
 import css from "./tech/css.png";
@@ -89,5 +90,6 @@ export {
   twitter,
   personal,
   live,
+  resume,
   warnimg,
 };
