@@ -16,12 +16,12 @@
 }
 
 .bg-main {
-  background: #804dee;
-  background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
+  background: #333333;
+  background: linear-gradient(-90deg, #333333 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #804dee 0%,
-    #4a2d89 100%
+    #333333 0%,
+    #333333 100%
   );
 }
 

@@ -46,7 +46,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${styles.paddingX} ${scroll ? "bg-[#804dee]" : "bg-[]" } w-full flex items-center py-5 fixed top-0 z-20 `}
+      className={`${styles.paddingX} ${scroll ? "bg-[#333333]" : "bg-[]" } w-full flex items-center py-5 fixed top-0 z-20 `}
     >
       <div className=" w-full flex items-center max-w-7xl mx-auto">
         <Link
@@ -91,7 +91,7 @@ const Navbar = () => {
             <li
               key={Link.id}
               className={`${
-                active === Link.title ? "text-white" : "text-[#2a2338]"
+                active === Link.title ? "text-white" : "text-[#a6a2bf]"
               } hover:text-white text-[20px]
              font-bold cursor-pointer
              transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-all ...
